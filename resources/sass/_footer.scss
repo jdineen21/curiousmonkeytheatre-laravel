@@ -1,0 +1,33 @@
+// Variables
+@import 'variables';
+
+footer {
+    background: #000000;
+    border-top: 0.4em solid $monkey;
+}
+
+footer p {
+    color: #696e77;
+}
+
+footer .container {
+    background: #000000;
+    padding: 3em;
+}
+
+.footer_box {
+    margin: 0 5% 0 0;
+    width: 28%;
+    float: left;
+}
+
+.footer_box h4 {
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.footer_box ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
