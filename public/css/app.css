@@ -33,6 +33,7 @@ footer .container {
 
 .header {
   background: #fff;
+  border-bottom: 0.4em solid #be1522;
 }
 
 .header .branding {
@@ -78,8 +79,40 @@ footer .container {
   }
 }
 
+#ImageSlider .slider_height {
+  height: 650px;
+}
+
+.slider_image {
+  width: 100%;
+}
+
 .port_display {
+  text-align: center;
   padding: 5em;
+}
+
+.port_article {
+  margin: 0 2em 2em 0;
+  background: #f7f8f8;
+  display: inline-block;
+  width: 30%;
+}
+
+.port_entry {
+  text-align: left;
+  padding: 1.5em;
+}
+
+.port_entry h4 {
+  text-align: center;
+}
+
+.port_entry .underline {
+  margin: 1em auto;
+  height: 0.1em;
+  width: 1.5em;
+  background: #be1522;
 }
 
 /*!
