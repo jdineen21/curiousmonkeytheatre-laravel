@@ -31,6 +31,16 @@ footer .container {
   list-style-type: none;
 }
 
+@media (max-width: 750px) {
+  .footer_box {
+    width: 43%;
+  }
+
+  .footer_box:nth-of-type(2) {
+    display: none;
+  }
+}
+
 .header {
   background: #fff;
   border-bottom: 0.4em solid #be1522;
@@ -79,11 +89,8 @@ footer .container {
   }
 }
 
-#ImageSlider .slider_height {
-  height: 650px;
-}
-
-.slider_image {
+#ImageSlider .slider_main {
+  overflow: hidden;
   width: 100%;
 }
 
@@ -113,6 +120,20 @@ footer .container {
   height: 0.1em;
   width: 1.5em;
   background: #be1522;
+}
+
+@media (max-width: 1400px) {
+  .port_article {
+    width: 45%;
+  }
+}
+
+@media (max-width: 752px) {
+  .port_article {
+    display: block;
+    width: 100%;
+    margin-right: 0;
+  }
 }
 
 /*!

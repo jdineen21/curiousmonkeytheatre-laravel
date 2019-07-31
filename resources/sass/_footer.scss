@@ -31,3 +31,13 @@ footer .container {
     padding: 0;
     list-style-type: none;
 }
+
+@media(max-width: 750px) {
+    .footer_box {
+        width: 43%;
+    }
+
+    .footer_box:nth-of-type(2) {
+        display: none;
+    }
+}

@@ -1,11 +1,8 @@
 // Variables
 @import 'variables';
 
-#ImageSlider .slider_height {
-    height: 650px;
-}
-
-.slider_image {
+#ImageSlider .slider_main {
+    overflow: hidden;
     width: 100%;
 }
 
@@ -35,4 +32,18 @@
     height: 0.1em;
     width: 1.5em;
     background: $monkey;
+}
+
+@media(max-width: 1400px) {
+    .port_article {
+        width: 45%;
+    }
+}
+
+@media(max-width: 752px) {
+    .port_article {
+        display: block;
+        width: 100%;
+        margin-right: 0;
+    }
 }

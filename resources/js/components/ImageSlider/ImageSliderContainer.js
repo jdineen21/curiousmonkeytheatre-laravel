@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Slider from 'react-animated-slider';
-import 'react-animated-slider/build/horizontal.css';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
 
 export default class SliderContainer extends React.Component {
     constructor(props) {
@@ -20,14 +20,20 @@ export default class SliderContainer extends React.Component {
 
     render() {
         return (
-            <Slider 
-                autoplay={5000}
-                className='slider slider_height'
+            <Carousel
+                showArrows={false}
+                showStatus={false}
+                showIndicators={false}
+                showThumbs={false}
+                infiniteLoop={true}
+                autoPlay={true}
+                interval={6000}
+                transitionTime={3000}
             >
                 {this.state.images.map((image, index) => <div key={index}>
                     <img className="slider_image" src={image} />
                 </div>)}
-            </Slider>
+            </Carousel>
         )
     }
 }
