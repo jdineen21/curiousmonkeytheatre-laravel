@@ -27,8 +27,9 @@ export default class SliderContainer extends React.Component {
                 showThumbs={false}
                 infiniteLoop={true}
                 autoPlay={true}
-                interval={6000}
-                transitionTime={3000}
+                stopOnHover={false}
+                interval={5000}
+                transitionTime={2000}
             >
                 {this.state.images.map((image, index) => <div key={index}>
                     <img className="slider_image" src={image} />

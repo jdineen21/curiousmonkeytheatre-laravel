@@ -64949,8 +64949,9 @@ function (_React$Component) {
         showThumbs: false,
         infiniteLoop: true,
         autoPlay: true,
-        interval: 6000,
-        transitionTime: 3000
+        stopOnHover: false,
+        interval: 5000,
+        transitionTime: 2000
       }, this.state.images.map(function (image, index) {
         return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
           key: index

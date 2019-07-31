@@ -53,10 +53,21 @@
                 <div class="footer_widgets">
                 <div class="footer_box">
                     <h4>Curious Monkey</h4>
+                    <div class="footer_underline"></div>
                     <p>Bringing to life stories that deserve to be told</p>
+                    <a href="http://www.facebook.com/Curiousmonkeytheatre">
+                        <img class="socialmedia_img" src="assets/socialmedia/Facebook.png" alt="Facebook Icon">
+                    </a>
+                    <a href="http://www.instagram.com/curious.monkey_">
+                        <img class="socialmedia_img" src="assets/socialmedia/Instagram.png" alt="Instagran Icon">
+                    </a>
+                    <a href="https://twitter.com/Curiousmonkey_">
+                        <img class="socialmedia_img" src="assets/socialmedia/Twitter.png" alt="Twitter Icon">
+                    </a>
                 </div>
                 <div class="footer_box">
                     <h4>Curious Tweets</h4>
+                    <div class="footer_underline"></div>
                     <ul class="kebo-tweets list light">                     
                         <li class="ktweet">
                             <div class="kmeta">
@@ -104,6 +115,7 @@
                 </div>
                 <div class="footer_box">
                     <h4>Contact Us</h4>
+                    <div class="footer_underline"></div>
                     <p>
                         Curious Monkey <br>
                         Space Six <br>
@@ -114,11 +126,11 @@
                     </p>
                     <p>
                         Artistic Director <br>
-                        Amy Golding
+                        <a class="mailto" href="mailto:amy@curiousmonkeytheatre.com">Amy Golding</a>
                     </p>
                     <p>
                         Company Manager <br>
-                        Jenny Dewar
+                        <a class="mailto" href="mailto:jenny@curiousmonkeytheatre.com">Jenny Dewar</a>
                     </p>
                 </div>
             </div>
