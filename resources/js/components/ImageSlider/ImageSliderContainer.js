@@ -40,6 +40,6 @@ export default class SliderContainer extends React.Component {
     }
 }
 
-if (document.getElementById('ImageSlider')) {
-    ReactDOM.render(<SliderContainer />, document.getElementById('ImageSlider'));
+if (document.getElementById('image_slider')) {
+    ReactDOM.render(<SliderContainer />, document.getElementById('image_slider'));
 }

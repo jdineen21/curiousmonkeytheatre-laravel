@@ -64970,8 +64970,8 @@ function (_React$Component) {
 
 
 
-if (document.getElementById('ImageSlider')) {
-  react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SliderContainer, null), document.getElementById('ImageSlider'));
+if (document.getElementById('image_slider')) {
+  react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SliderContainer, null), document.getElementById('image_slider'));
 }
 
 /***/ }),
