@@ -21,18 +21,19 @@ export default class SliderContainer extends React.Component {
     render() {
         return (
             <Carousel
-                showArrows={false}
+                showArrows={true}
                 showStatus={false}
-                showIndicators={false}
+                showIndicators={true}
                 showThumbs={false}
                 infiniteLoop={true}
                 autoPlay={true}
                 stopOnHover={false}
                 interval={5000}
                 transitionTime={2000}
+                swipeable={false}
             >
                 {this.state.images.map((image, index) => <div key={index}>
-                    <img className="slider_image" src={image} />
+                    <img className="slider_image" src={image} alt={'Slider '+index} />
                 </div>)}
             </Carousel>
         )

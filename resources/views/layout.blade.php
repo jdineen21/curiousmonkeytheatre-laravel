@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ URL::asset('css/app.css') }}" text="text/css" />
+    <link rel="shortcut icon" href="assets/layout/curiousmonkey-logo.png" />
     <script src="{{ URL::asset('js/app.js') }}" defer></script>
     <title>Curious Monkey</title>
 </head>

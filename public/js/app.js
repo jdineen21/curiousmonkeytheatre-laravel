@@ -64943,21 +64943,23 @@ function (_React$Component) {
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_responsive_carousel__WEBPACK_IMPORTED_MODULE_3__["Carousel"], {
-        showArrows: false,
+        showArrows: true,
         showStatus: false,
-        showIndicators: false,
+        showIndicators: true,
         showThumbs: false,
         infiniteLoop: true,
         autoPlay: true,
         stopOnHover: false,
         interval: 5000,
-        transitionTime: 2000
+        transitionTime: 2000,
+        swipeable: false
       }, this.state.images.map(function (image, index) {
         return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
           key: index
         }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
           className: "slider_image",
-          src: image
+          src: image,
+          alt: 'Slider ' + index
         }));
       }));
     }
