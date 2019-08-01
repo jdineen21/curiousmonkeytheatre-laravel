@@ -26,8 +26,15 @@ footer .container {
     text-transform: uppercase;
 }
 
+.footer_box .img_link {
+    margin: 0 0.1em 0 0;
+    display: inline-block;
+    text-decoration: none;
+}
+
 .footer_box .socialmedia_img {
-    margin: 0 0.2em 0 0;
+    display: block;
+
 }
 
 .footer_box .footer_underline {

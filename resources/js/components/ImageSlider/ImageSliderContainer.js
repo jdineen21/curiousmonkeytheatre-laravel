@@ -9,7 +9,7 @@ export default class SliderContainer extends React.Component {
         super(props);
         this.state = {
             images: [
-                'assets/banner/Leaving-Image_banner1.jpg',
+                //'assets/banner/Leaving-Image_banner1.jpg',
                 'assets/banner/mamela-banner-2.jpg',
                 'assets/banner/PREGGERS-banner-21.jpg',
                 'assets/banner/theatremonkey-banner1.jpg',
@@ -27,9 +27,9 @@ export default class SliderContainer extends React.Component {
                 showThumbs={false}
                 infiniteLoop={true}
                 autoPlay={true}
-                stopOnHover={false}
+                stopOnHover={true}
                 interval={5000}
-                transitionTime={2000}
+                transitionTime={1000}
                 swipeable={false}
             >
                 {this.state.images.map((image, index) => <div key={index}>

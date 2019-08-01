@@ -9,7 +9,7 @@
     <section class="content">
         <div class="container">
             <div class="portfolio">
-                <h1>Projects</h1>
+                <h2>Current Projects</h2>
                 <ul class="port_list">
                     <li class="port_list_item">
                         <div class="port_entry">

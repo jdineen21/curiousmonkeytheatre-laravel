@@ -56,13 +56,13 @@
                     <h4>Curious Monkey</h4>
                     <div class="footer_underline"></div>
                     <p>Bringing to life stories that deserve to be told</p>
-                    <a href="http://www.facebook.com/Curiousmonkeytheatre">
+                    <a class="img_link" href="http://www.facebook.com/Curiousmonkeytheatre">
                         <img class="socialmedia_img" src="assets/socialmedia/Facebook.png" alt="Facebook Icon">
                     </a>
-                    <a href="http://www.instagram.com/curious.monkey_">
+                    <a class="img_link" href="http://www.instagram.com/curious.monkey_">
                         <img class="socialmedia_img" src="assets/socialmedia/Instagram.png" alt="Instagran Icon">
                     </a>
-                    <a href="https://twitter.com/Curiousmonkey_">
+                    <a class="img_link" href="https://twitter.com/Curiousmonkey_">
                         <img class="socialmedia_img" src="assets/socialmedia/Twitter.png" alt="Twitter Icon">
                     </a>
                 </div>
